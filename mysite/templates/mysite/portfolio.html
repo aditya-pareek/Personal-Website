@@ -1,0 +1,29 @@
+{% extends 'mysite/base.html' %}
+{% load static %}
+{% block content %}
+<div class="container" style="margin-top: 100px">
+<div class="card-deck">
+    <div class="card">
+      <img class="card-img-top" src="{% static 'mysite/images/download(7).png' %}" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">To-Do App</h5>
+        <p class="card-text">A Web App to store all your daily tasks.</p>
+      </div>
+    </div>
+    <div class="card">
+      <img class="card-img-top" src="{% static 'mysite/images/download(6).png' %}" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Blog Room</h5>
+        <p class="card-text">A Website where you can read, write and edit blogs.</p>
+      </div>
+    </div>
+    <div class="card">
+      <img class="card-img-top" src="{% static 'mysite/images/download(8).png' %}" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Personal Website</h5>
+        <p class="card-text">A simple Personal Website built using django.</p>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}
