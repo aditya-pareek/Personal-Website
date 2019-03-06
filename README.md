@@ -8,8 +8,8 @@ A simple personal website built using django
   1) change directory to the cloned file and create a virtual environment using "virtualenv env"
   2) source env/bin/activate
   3) pip install -r requirements.txt
-  5) python manage.py runserver
-  6) Type localhost:8000 in your browser
+  4) python manage.py runserver
+  5) Type localhost:8000 in your browser
 ```
 ## Dependencies
 ```
